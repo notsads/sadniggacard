@@ -1,6 +1,6 @@
 const canvas = require("@napi-rs/canvas");
 const { colorFetch } = require("../fn/colorFetch");
-const { sadniggacard } = require("..");
+//const { sadniggacard } = require("..");
 
  //canvas.GlobalFonts.registerFromPath(`ajju/st/font/circularstd-black.otf`, "circular-std");
  //canvas.GlobalFonts.registerFromPath(`ajju/st/font/notosans-jp-black.ttf`, "noto-sans-jp");
@@ -718,7 +718,7 @@ class sadniggacard {
             circleCtx.fillStyle = `#${validatedColor}`;
             circleCtx.fill();
 
-            const background = await canvas.loadImage(`https://i.imgur.com/zEBfIxj.png`);
+            const background = await canvas.loadImage(`https://i.imgur.com/ADDITOX.jpg`);
 
             const thumbnailCanvas = canvas.createCanvas(650, 650);
             const thumbnailCtx = thumbnailCanvas.getContext('2d');

@@ -1,0 +1,27 @@
+{
+  "name": "sadniggacard",
+  "version": "1.0.0",
+  "description": "Nigg a c",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/notsads/sadniggacard.git"
+  },
+  "keywords": [
+    "nis"
+  ],
+  "author": "notsads",
+  "license": "ISC",
+  "types": "./index.d.ts",
+  "bugs": {
+    "url": "https://github.com/notsads/sadniggacard/issues"
+  },
+  "homepage": "https://github.com/notsads/sadniggacard#readme",
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.68",
+    "color-thief-bun": "^1.0.3"
+  }
+}
